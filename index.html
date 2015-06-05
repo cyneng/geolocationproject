@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head> 
+   <link rel="stylesheet"  type="text/css" href="stylesheet/style.css">
+  <!--  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> -->
+  <meta charset="UTF-8" />
+	<title>HTML API Geolocation project"</title>
+</head>	
+<html>
+<header>
+  </header>
+<body>
+   <div id="header">
+      <h1>HTML API Geolocation project</h1>
+   </div>
+   <form name="mainlocation">
+      <input type="button" onclick="getLocation();" value="Get Location"/>     
+      <p>
+         <label>Longitude</label>
+         <input type="text" name="longitude">
+         <label>Latitude</label>
+         <input type="text" name="latitude">
+      </p>
+      <br>
+      <p>
+        <input type="button" value="Reset Location" onClick="this.form.reset()" />
+      </p>
+
+      
+   </form> 
+
+</body>
+   <footer>
+       <script src="js/example.js"></script> 
+   </footer>
+</html>
