@@ -1,0 +1,33 @@
+{
+  "name": "geolocation",
+  "version": "0.1.0",
+  "description": "Get user's current location and ability to clear it",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyneng/geolocation.git"
+  },
+  "keywords": [
+    "express",
+    "static",
+    "heroku"
+  ],
+  "author": "Cyndy Eng-Dinsel",
+  "license": "GPL 3.0",
+  "bugs": {
+    "url": "https://github.com/cyneng/geolocation/issues"
+  },
+  "engines": {
+      "node": "0.10.x"
+  },
+  "homepage": "https://github.com/cyneng/geolocation",
+  "dependencies": {
+    "compression": "^1.0.9",
+    "express": "^4.7.2",
+    "logfmt": "^1.1.2",
+    "serve-favicon": "^2.0.1"
+  }
+}
